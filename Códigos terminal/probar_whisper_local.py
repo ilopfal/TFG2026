@@ -15,8 +15,6 @@ def transcribir_audio(modelo, ruta_audio):
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Uso: python probar_whisper_local.py <carpeta_con_audios> [modelo]")
-        print("Modelos disponibles: tiny, base, small, medium, large")
         sys.exit(1)
 
     carpeta = sys.argv[1]
